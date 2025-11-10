@@ -81,15 +81,15 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'carros',
         'USER': 'postgres',
         'PASSWORD': '123456',
         'HOST': 'localhost',
         'PORT': '5433',
-        "OPTIONS": {
-            # psycopg / psycopg2 aceitam esta opção:
-            "options": "-c search_path=carros,public"
-        }
+        # "OPTIONS": {
+        #     # psycopg / psycopg2 aceitam esta opção:
+        #     "options": "-c search_path=carros,public"
+        # }
     }
 }
 
