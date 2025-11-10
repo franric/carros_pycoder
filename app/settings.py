@@ -85,7 +85,7 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': '123456',
         'HOST': 'localhost',
-        'PORT': '5433',
+        'PORT': '5432',
         # "OPTIONS": {
         #     # psycopg / psycopg2 aceitam esta opção:
         #     "options": "-c search_path=carros,public"
